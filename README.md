@@ -28,6 +28,22 @@ npx mineload
 Requires Node 18+. Everything else (yt-dlp, ffmpeg) is fetched or bundled
 automatically.
 
+## Install from GitHub
+
+```sh
+git clone https://github.com/callmeahmadnasir-ops/mineload.git
+cd mineload
+npm install
+npm run build
+npm link
+```
+
+Now run it from anywhere:
+
+```sh
+mineload https://youtu.be/dQw4w9WgXcQ
+```
+
 ## Usage
 
 ```sh
@@ -78,11 +94,6 @@ To try it as a global command without publishing: `npm link`, then run
 mineload is a personal-archiving tool. Downloading content may violate a
 platform's terms of service — only download what you have the right to
 keep, and be excellent to creators.
-
-## Credits
-
-Built on [yoinks](https://github.com/pablostanley/yoinks) by Pablo
-Stanley (MIT) — reskinned with a Minecraft name, logo, and palette.
 
 ## License
 
