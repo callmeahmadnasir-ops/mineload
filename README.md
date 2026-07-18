@@ -102,6 +102,11 @@ To publish a new version:
 1. Bump `version` in `package.json`.
 2. Run `npm publish` locally, or create a GitHub Release to trigger the publish workflow.
 
+## Contributors
+
+- [@callmeahmadnasir-ops](https://github.com/callmeahmadnasir-ops) — author & maintainer
+- Built with [Kimi Code](https://kimi.moonshot.cn) by Moonshot AI
+
 ## License
 
 MIT
